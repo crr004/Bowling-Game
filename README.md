@@ -34,6 +34,6 @@ graph TD;
     F-->J;
 ```   
 
-Each pin can drop (propagate SIGTERM) to either one, none, or both of the pins it has below (insted of G,H,I,J that can't drop anyone). This means A can drop  B, C, both or none of them, E can drop H, I, both, or none of them and so on.
+Each pin can drop (propagate SIGTERM) either one, none, or both of the pins it has below (insted of G,H,I,J that can't drop anyone). This means A can drop  B, C, both or none of them, E can drop H, I, both, or none of them and so on.
 
 P.D.: The documentation is written in spanish.
